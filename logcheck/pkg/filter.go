@@ -116,14 +116,14 @@ func (f *RegexpFilter) Enabled(check string, enabled bool, filename string) bool
 }
 
 func matchFullString(str string, re *regexp.Regexp) bool {
-	loc := re.FindStringIndex(str)
-	if loc == nil {
-		// No match at all.
-		return false
-	}
-	if loc[1]-loc[0] < len(str) {
-		// Only matches a substring.
-		return false
-	}
+	//loc := re.FindStringIndex(str)
+	//if loc == nil {
+	//	// No match at all.
+	//	return false
+	//}
+	//if loc[1]-loc[0] < len(str) {
+	//	// Only matches a substring.
+	//	return false
+	//}
 	return true
 }
