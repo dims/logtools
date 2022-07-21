@@ -1,4 +1,4 @@
-module sigs.k8s.io/logtools
+module github.com/dims/logtools
 
 go 1.15
 

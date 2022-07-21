@@ -19,8 +19,8 @@ limitations under the License.
 package main
 
 import (
+	"github.com/dims/logtools/logcheck/pkg"
 	"golang.org/x/tools/go/analysis"
-	"sigs.k8s.io/logtools/logcheck/pkg"
 )
 
 type analyzerPlugin struct{}
